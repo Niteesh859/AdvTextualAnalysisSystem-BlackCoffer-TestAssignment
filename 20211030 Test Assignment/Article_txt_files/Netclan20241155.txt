@@ -1,0 +1,48 @@
+Data ETL: Local Service Ads Leads to BigQuery
+
+Client:A leading Marketing firm in the USA
+Industry Type:Marketing
+Services:Marketing consulting
+Organization Size:100+
+Upload daily data from Google Local Service Ads dashboard to BigQuery database.
+Extracts data from LSA dashboard for the last 24 hours.
+The data is uploaded to BigQuery database “lsa_lead_daily_data”
+The script runs every morning and is deployed to Heroku by the name “lead-details-to-db”.
+The data is collected only for the companies that are not marked in red in the “Missed Messages Notification Automation – Master File” sheet.
+The following data is uploaded:Number of LeadsCost Per LeadLead TypeDispute amount to be approvedDispute amount approvedCost per Call
+Number of Leads
+Cost Per Lead
+Lead Type
+Dispute amount to be approved
+Dispute amount approved
+Cost per Call
+Use LSA API to extract data.
+Clean the data to make it readable and dispose the data not needed.
+Upload data to a BigQuery database everyday at a fixed time.
+Deploy to Heroku to run the script everyday.
+A working deployed automated tool that runs everyday in the morning hours and uploads a report to database. Tool is monitored everyday.
+Heroku
+LSA API
+BigQuery API
+Sheets API
+Python
+Data extraction, cleaning and summarising
+BigQuery –  lsa_lead_daily_data
+Heroku
+Making sure that the data uploaded is for the right company.
+Monitoring daily logs and uploads for some time and making sure data was correct
+Extracts data from LSA dashboard for the last 24 hours.
+The data is uploaded to BigQuery database “lsa_lead_daily_data”
+The script runs every morning and is deployed to Heroku by the name “lead-details-to-db”.
+The data is collected only for the companies that are not marked in red in the “Missed Messages Notification Automation – Master File” sheet.
+The following data is uploaded:Number of LeadsCost Per LeadLead TypeDispute amount to be approvedDispute amount approvedCost per Call
+Number of Leads
+Cost Per Lead
+Lead Type
+Dispute amount to be approved
+Dispute amount approved
+Cost per Call
+Use LSA API to extract data.
+Clean the data to make it readable and dispose the data not needed.
+Upload data to a BigQuery database everyday at a fixed time.
+Deploy to Heroku to run the script everyday.

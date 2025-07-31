@@ -1,0 +1,21 @@
+ROAS Dashboard for Campaign-Wise Google Ads Budget Tracking Using Google Ads AP
+
+Client:A leading IT & tech firm in the USA
+Industry Type:IT
+Products & Services:IT Consulting, IT Support, SaaS
+Organization Size:200+
+Create a ROASing dashboard to fetch google ads budget spent data using google ads api(campaign-wise). The challenge is to develop a ROAS (Return on Ad Spend) dashboard that efficiently retrieves and displays Google Ads budget spent data on a campaign-wise basis using the Google Ads API. The current system lacks a streamlined method for tracking and analyzing ad spend across various campaigns, leading to difficulties in assessing performance and optimizing budget allocation. The goal is to create a comprehensive dashboard that accurately fetches and visualizes budget data, enabling more effective analysis and decision-making. This involves integrating with the Google Ads API, ensuring data accuracy, and providing clear, actionable insights for better campaign management.
+4o mini
+Get Data source accessa. Google ads accountsGet Access to google cloud platforma. Bigqueryb. VMSetup Google Big Query Data warehouseDesign db schema / modelsDevelop Python ETL tool to pull data from source and save it to the data warehouseDeploy ETL tool to VM and run it as cron to update data at db frequentlya. Check frequency to runb. Recommended 3 to 6 times a dayc. The ETL tool should run automatically at the set intervals and update the dbd. Add slack integration module for notifications on Cronjob failureGet Design Access of the DashboardImplement the Dashboarda. Use Vuexy React Templateb. List KPI to display in UIc. List Charts to display in the UIImplement Backend API needed to build the dashboard
+ETL Tool
+Dashboard
+Documentations
+Source codes
+Support and Maintenance
+Tools usedVS CodeDigital OceanLanguage/techniques usedPythonGoogle Big QueryGoogle Cloud PlatformGoogle AdsAPIReact.jsNode.jsGithubModels usedPython libraries (Pandas)Skills usedData ScientistFull Stack developerDatabases usedMySQLWeb Cloud Servers usedDigital Ocean
+Getting the Google Ads campaigns data
+Used the google Ads APIs
+https://roasing.com
+Summarized: https://blackcoffer.com/
+This project was done by the Blackcoffer Team, a Global IT Consulting firm.
+This solution was designed and developed by Blackcoffer TeamHere are my contact details:Firm Name: Blackcoffer Pvt. Ltd.Firm Website: www.blackcoffer.comFirm Address: 4/2, E-Extension, Shaym Vihar Phase 1, New Delhi 110043Email: ajay@blackcoffer.comSkype: asbidyarthyWhatsApp: +91 9717367468Telegram: @asbidyarthy
